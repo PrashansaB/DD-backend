@@ -9,7 +9,7 @@ require("dotenv").config();
 app.use((req, res, next) => {
   res.setHeader(
     "Access-Control-Allow-Origin",
-    "https://deliciosdispatch.netlify.app/"
+    "https://deliciosdispatch.netlify.app"
   );
   res.header(
     "Access-Control-Allow-Headers",
