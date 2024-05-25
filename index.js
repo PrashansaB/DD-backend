@@ -7,7 +7,10 @@ require("dotenv").config();
 
 // app.use(cors())
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+  res.setHeader(
+    "Access-Control-Allow-Origin",
+    "https://deliciosdispatch.netlify.app/"
+  );
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With , Content-Type ,Accept "
